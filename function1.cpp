@@ -1,0 +1,11 @@
+#include <function1.h>
+#include <iostream>
+using namespace std;
+int main()
+{int val[]= { 60, 100, 120};
+intwt[]={ 10, 20, 30};
+int W=50;
+int n = sizeof(val) / sizeof(val[0]);
+cout << knapSack(W, wt, val, n);
+return 0;
+}
